@@ -1,0 +1,10 @@
+/* MEMBERS LIST */
+
+.container_c8ffbb {
+    margin-left: calc(var(--unity-inset) * var(--enable-gaps));
+    border-radius: calc(var(--unity-border-radius) * var(--enable-gaps));
+    .membersWrap_c8ffbb {
+        border-radius:  calc(var(--unity-border-radius) * var(--enable-gaps));
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,109 @@
+/* Switch Body dimensions and position. also adjust the <input> for bd switches  */
+.container__3f21e:not(.mini-6F2SSa),
+.bd-switch-body,
+.bd-switch input {
+    height: 20px;
+    width: 35px;
+    
+}
+
+/* Enabled Switch Body */
+.container__3f21e.checked__3f21e {
+    background-color: var(--brand-experiment) !important;
+}
+
+/* Disabled Switch Body */
+.container__3f21e:not(.checked__3f21e, .mini-6F2SSa){
+    border: 1.5px solid rgb(var(--unity-inactive-rgb));
+}
+
+/* Switch slider dimensions */
+.slider__3f21e {
+    width: 30px;
+    height: 30px;
+}
+
+/* Subtle border on switch handle when disabled */
+:not(.checked__3f21e, .mini-6F2SSa)>.slider__3f21e>rect {
+    stroke: rgb(var(--unity-inactive-rgb));
+    /* use stroke instead of border as this element is a basic shape */
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    paint-order: stroke;
+}
+
+/* Mini Switches??? */
+
+.container-2nx-BQ.mini-6F2SSa>.slider-32CRPX {
+    width: 25px;
+    height: 25px;
+    transform: translateX(-5px);
+    /* Translate as left: is automated */
+    top: -5.5px;
+
+}
+
+.container-2nx-BQ.mini-6F2SSa input {
+    margin: 0 auto;
+}
+
+.container_a2f514 {
+    display: none;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+    .container__3f21e {
+
+        margin-right: 6px;
+
+        &.checked__3f21e {
+            background-color: var(--brand-experiment) !important;
+
+            svg.slider__3f21e {
+                left: 12px !important;
+                margin: 0;
+                top: 50%;
+                transform: translateY(-50%) !important;
+
+                >rect {
+                    stroke: var(--brand-experiment);
+                    /* use stroke instead of border as this element is a basic shape */
+                }
+            }
+        }
+
+        &:not(.checked__3f21e) {
+            background-color: transparent !important;
+
+            svg.slider__3f21e {
+                top: 50%;
+                margin: 0;
+                transform: translateY(-50%) translateX(-5px) !important;
+            }
+        }
+
+        svg.slider__3f21e {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+
+            >rect {
+                stroke: rgb(var(--unity-inactive-rgb));
+                stroke-width: 2px;
+                stroke-linejoin: round;
+                paint-order: stroke;
+                width: 20px;
+                height: 20px;
+                x: 4;
+                y: 0;
+
+                +svg {
+                    display: none;
+                }
+            }
+        }
+    }
+

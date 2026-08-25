@@ -1,0 +1,26 @@
+:where(.children__9293f, .contents_c19a55, .link__972a0, .userInfo__0a06e) {
+  &:has([src*="419610859392860162"]) {
+    :where(.overflow_b0dfc2, .headerText_c19a55, .username__0a06e, .titleWrapper__9293f > h1 > div) {
+        display: inline-flex;
+        flex-wrap: wrap;
+
+      &:after {
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: row;
+        align-items: center;
+        content: "unity developer";
+        text-transform: uppercase;
+        border: 1px solid var(--brand-experiment-600);
+        padding: 0 4px;
+        background-color: var(--brand-experiment-50a);
+        font-size: 10px;
+        height: 15px;
+        border-radius: 4px;
+        margin: auto 0 auto 4px;
+        text-decoration: none !important;
+        color: var(--interactive-active);
+      }
+    }
+  }
+}

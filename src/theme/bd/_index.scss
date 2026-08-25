@@ -1,0 +1,138 @@
+@use './notices';
+@use './controls';
+
+
+.contentColumn__23e6b {
+
+    .bd-search-wrapper {
+        border-radius: var(--unity-border-radius);
+        padding: 5px 10px;
+    }
+
+    .bd-addon-list {
+        .bd-addon-card {
+            border-radius: var(--unity-border-radius);
+        }
+    }
+
+    .bd-addon-header:has(.bd-switch-checked) {
+        background-color: var(--brand-experiment-10a);
+    }
+
+    >.bd-settings-title:first-of-type {
+        font-size: 30px;
+    }
+
+    .bd-settings-title+.bd-settings-group {
+        margin-top: 20px;
+    }
+
+    .bd-controls.bd-addon-controls {
+        position: sticky;
+        z-index: 3;
+        height: auto;
+        top: 150px;
+        padding: 0px 10px;
+    }
+
+   > .bd-settings-title {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        color: var(--interactive-active);
+        position: sticky;
+        height: 180px;
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        top: 0px;
+        background-color: var(--background-primary);
+        z-index: 3;
+        border-radius: 0px;
+        margin-bottom: 0px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: -50px;
+            height: 40px;
+            width: 100%;
+            border-radius: var(--unity-border-radius) var(--unity-border-radius) 0px 0px;
+            background-color: transparent;
+            box-shadow: 0 -25px 0 0 var(--background-primary);
+            z-index: -1;
+            pointer-events: none;
+        }
+    }
+
+    .bd-settings-title>.bd-button-title {
+        margin-left: 0;
+        padding: 4px 30px;
+    }
+
+    .bd-settings-group {
+        >.bd-settings-container {
+            background-color: var(--background-secondary);
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: var(--unity-border-radius);
+
+            > {
+                .bd-setting-item.inline:last-of-type .bd-setting-divider {
+                    display: none;
+                }
+
+                .bd-empty-updates {
+                    padding-bottom: 10px;
+                }
+
+                .bd-setting-item.inline {
+                    &:first-of-type {
+                        padding-top: 20px;
+                    }
+
+                    &:last-of-type {
+                        padding-bottom: 20px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+
+        &.collapsible>.bd-settings-group-title::before {
+            display: none;
+        }
+
+        ~.bd-settings-group .bd-settings-title {
+            margin-top: 20px;
+        }
+    }
+
+}
+
+button.bd-button:not(.bd-button-color-transparent) {
+    .bd-addon-views & {
+        .bd-button.selected {
+        background-color: var(--brand-experiment);
+        }
+    }
+
+    &.bd-view-button.selected {
+        background-color: var(--brand-experiment);
+    }
+
+    &:not(.bd-addon-button, .bd-view-button) {
+        border-radius: var(--unity-border-radius);
+    }
+}
+
+[role="dialog"] {
+    &:has(.bd-modal-root) {
+        backdrop-filter: blur(var(--unity-floating-blur-radius));
+        border-radius: var(--unity-border-radius);
+        overflow:hidden;
+    }
+}

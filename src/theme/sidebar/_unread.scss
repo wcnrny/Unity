@@ -1,0 +1,71 @@
+.sidebar__5e434 {
+    nav {
+        .bar__7aaec {
+            --backdrop-blur: var(--unity-floating-blur-radius);
+        &::after {
+            backdrop-filter: blur(var(--backdrop-blur));
+            content:"";
+            position: absolute;
+            width:100%;
+            height: 100%;
+            border-radius: inherit;
+            z-index: -1;
+            top:0;
+            left:0;
+        }
+    }
+        ul li {
+            border-radius: calc(var(--unity-border-radius) - 8px);
+
+            &:hover {
+                &[class] {
+                    .wrapper__2ea32.modeUnreadImportant__2ea32 {
+
+                        &::before {
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+
+            &[class] {
+                .base__5e434:has(.newMessagesBar__0f481) & {
+                    .wrapper__2ea32.modeSelected__2ea32 {
+                        &::before {
+                            height: 20px;
+                            background-color: var(--interactive-active);
+                            transition: height cubic-bezier(0.39, 0.46, 0, 0.98) 850ms, background-color 1.5s ease;
+                        }
+                    }
+                }
+
+                .wrapper__2ea32 {
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        display: inline-block;
+                        width: 3px;
+                        height: 0;
+                        border-radius: var(--radius-round);
+                        background-color: transparent;
+                        top: 50%;
+                        transform: translateY(-50%);
+
+                        transition: height cubic-bezier(0.39, 0.46, 0, 0.98) 350ms, background-color 1.5s ease;
+                    }
+
+                    .unread__2ea32 {
+                        display: none;
+                    }
+                }
+
+                .wrapper__2ea32.modeUnreadImportant__2ea32 {
+                    &::before {
+                        background-color: var(--interactive-active);
+                        height: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

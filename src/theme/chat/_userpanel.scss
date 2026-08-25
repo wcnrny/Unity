@@ -1,0 +1,27 @@
+// USER PANEL in DMs 
+.content_f75fb0 {
+
+    .container__93316 {
+      
+        +aside {
+         padding-left: calc(var(--unity-inset) * var(--enable-gaps));
+        }
+
+    }
+    .userPanelOuter_c69a7b {
+      
+        border-radius: calc(var(--unity-border-radius) * var(--enable-gaps)) ; 
+
+    .userPanelInner_c69a7b.userProfileInner_c69a7b {
+      
+       border-radius: calc(var(--unity-border-radius) * var(--enable-gaps)) ; 
+        overflow: hidden;
+         
+
+        .userPanelOverlayBackground_a2b6ae {
+            border-radius: calc(var(--unity-border-radius));
+        }
+    }
+}
+}
+

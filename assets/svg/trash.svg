@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Vectornator (http://vectornator.io/) -->
+
+<svg
+   height="23.80706"
+   stroke-miterlimit="10"
+   style="clip-rule:evenodd;fill-rule:nonzero;stroke-linecap:round;stroke-linejoin:round"
+   version="1.1"
+   viewBox="0 0 22.161207 23.80706"
+   width="22.161207"
+   xml:space="preserve"
+   id="svg2540"
+   sodipodi:docname="trash.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:vectornator="http://vectornator.io"><sodipodi:namedview
+   id="namedview2542"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1" />
+<defs
+   id="defs2535" />
+<g
+   id="Untitled"
+   vectornator:layerName="Untitled"
+   transform="translate(-0.919392,-0.096439)">
+<path
+   d="m 14.9541,0.096439 c 0.9063,0 1.6418,0.736869 1.6418,1.641921 v 2.62703 h 5.4996 c 0.5438,0 0.9851,0.44133 0.9851,0.98512 0,0.54504 -0.4413,0.98511 -0.9851,0.98511 H 20.3196 L 19.1283,21.1334 c -0.1221,1.5276 -1.4698,2.7701 -3.0014,2.7701 H 7.87306 c -1.53158,0 -2.87796,-1.2425 -3.00137,-2.7701 L 3.68166,6.33562 H 1.90451 c -0.54378,0 -0.985118,-0.44007 -0.985118,-0.98511 0,-0.54379 0.441338,-0.98512 0.985118,-0.98512 H 7.40147 V 1.73836 c 0,-0.905052 0.73687,-1.641921 1.64191,-1.641921 z M 9.54509,10.4914 c -0.54505,0 -0.98512,0.4414 -0.98512,0.9852 v 5.8451 c 0,0.545 0.44007,0.9851 0.98512,0.9851 0.54381,0 0.98511,-0.4401 0.98511,-0.9851 v -5.8451 c 0,-0.5438 -0.4413,-0.9852 -0.98511,-0.9852 z m 4.91111,0 c -0.5438,0 -0.9851,0.4414 -0.9851,0.9852 v 5.8451 c 0,0.545 0.4413,0.9851 0.9851,0.9851 0.5438,0 0.9851,-0.4401 0.9851,-0.9851 v -5.8451 c 0,-0.5438 -0.4413,-0.9852 -0.9851,-0.9852 z M 14.6256,2.06667 H 9.37171 v 2.29872 h 5.25389 z"
+   fill="#000000"
+   fill-rule="nonzero"
+   opacity="1"
+   stroke="none"
+   id="path2537" />
+</g>
+</svg>

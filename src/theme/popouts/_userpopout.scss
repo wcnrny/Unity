@@ -1,0 +1,46 @@
+/* -- User Popouts + User Profile Panel -- */
+
+
+.userPopoutOuter_c69a7b {
+    border-radius: var(--unity-border-radius);
+
+    >.userPopoutInner_c69a7b {
+        &::before {
+            border-radius: calc(var(--unity-border-radius) - 4px);
+        }
+
+        .bannerSVGWrapper_b32cc2 {
+            border-radius: calc(var(--unity-border-radius) - 4px) calc(var(--unity-border-radius) - 4px) 0 0;
+        }
+    }
+}
+
+//  Above also applies for the profile preview in settings.
+
+
+
+[class*="userPopoutInner"]>[class*="wrapper"]>[class*="bannerVisible"] {
+    border-radius: var(--unity-border-radius) var(--unity-border-radius) 0px 0px;
+}
+
+/* Remove stock border on input wrapper */
+[class*="userPopoutOverlayBackground"] [class*="section"]>[class*="inputWrapper"] {
+    border-width: 0px;
+}
+
+/* "Underline" input boxes when focused  */
+
+:where(.messageInput_f2c0a8, .input__0ed4f):focus:not(.searchBoxInput__56498, .select-1Ia3hD, .select_a16aea) {
+    border-bottom: var(--border-width) solid var(--brand-experiment);
+}
+
+:where(.messageInput_f2c0a8, .input__0ed4f):not(.searchBoxInput__56498, .select-1Ia3hD, .select_a16aea) {
+    border-bottom: var(--border-width) solid var(--profile-message-input-border-color, var(--interactive-muted));
+    border-radius: 0px;
+}
+
+:where(.messageInput_f2c0a8, .input__0ed4f):not(.searchBoxInput__56498, .select-1Ia3hD, .select_a16aea, .focused-1AtTHC, :focus):hover {
+    border-bottom: var(--border-width) solid var(--interactive-hover);
+}
+
+

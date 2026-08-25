@@ -1,0 +1,20 @@
+.searchBarComponent_cba592, .searchBar_c322aa{
+    border-radius: var(--unity-border-radius);
+    padding-left: 5px;
+}
+
+.searchFilter_bd8186 {
+    padding: 0px 4px;
+    border-radius: var(--unity-border-radius) 0 0 var(--unity-border-radius) ;
+}
+
+.searchAnswer_bd8186 {
+    padding: 0 4px;
+    border-radius: 0 var(--unity-border-radius) var(--unity-border-radius) 0 ;
+}
+
+[role="tabpanel"] {
+    .searchBar__5ec2f {
+        border-radius: calc(var(--unity-border-radius) - 8px);
+    }
+}

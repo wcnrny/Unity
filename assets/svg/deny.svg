@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="17.5"
+   height="17.5"
+   viewBox="0 0 17.5 17.5"
+   fill="none"
+   version="1.1"
+   id="svg403"
+   sodipodi:docname="deny.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs407" />
+  <sodipodi:namedview
+     id="namedview405"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     d="M 14.376,13.316 4.184,3.124 C 5.432,2.109 7.021,1.5 8.75,1.5 12.748,1.5 16,4.752 16,8.75 c 0,1.729 -0.609,3.319 -1.624,4.566 z M 8.75,16 C 4.752,16 1.5,12.748 1.5,8.75 1.5,7.02 2.109,5.431 3.123,4.184 L 13.315,14.377 C 12.067,15.39 10.479,16 8.75,16 Z m 0,-16 C 3.926,0 0,3.924 0,8.75 0,13.574 3.926,17.5 8.75,17.5 13.575,17.5 17.5,13.574 17.5,8.75 17.5,3.924 13.575,0 8.75,0 Z"
+     fill="#252525"
+     id="path401" />
+</svg>

@@ -1,0 +1,113 @@
+/* STICKER / GIF / EMOJI PICKER */
+
+.contentWrapper_eab878, .contentWrapper__08434 {
+    grid-template-rows: auto 24px;
+    padding-bottom: 8px;
+}
+
+.nav__08434,
+.nav__2aafa {
+    order: 2;
+}
+
+.wrapper__14245{
+    background-color: transparent;
+}
+
+.navItem__08434+.navItem__08434 {
+    margin-left: 10px;
+}
+
+.navItem__08434 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container_fea832 {
+    border-radius: var(--unity-border-radius);
+}
+
+.categoryFadeBlurple_d02962 {
+    border-radius: var(--unity-border-radius);
+}
+
+section .contentWrapper__08434,
+.unicodeShortcut_b9ee0c,
+.standardStickerShortcut__3ad28,
+#emoji-picker-tab-panel>.header_c0e32c,
+.scroller_affa7e.list_c656ac {
+    background-color: var(--unity-background-floating);
+    -webkit-backdrop-filter: blur(var(--unity-floating-blur-radius));
+    backdrop-filter: blur(var(--unity-floating-blur-radius));
+}
+
+.header_c0e32c {
+    background-color: transparent;
+}
+
+.emojiPicker_c0e32c {
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.container_fea832 {
+    background-color: var(--unity-background-floating);
+    -webkit-backdrop-filter: blur(var(--unity-floating-blur-radius));
+    backdrop-filter: blur(var(--unity-floating-blur-radius));
+
+}
+
+.inspector_aeaaeb {
+    -webkit-backdrop-filter: blur(var(--unity-floating-blur-radius));
+    backdrop-filter: blur(var(--unity-floating-blur-radius));
+    background-color: var(--unity-background-floating);
+}
+
+.wrapper__14245.header_c656ac {
+    flex-shrink: 1;
+    top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: unset;
+}
+
+.header__14245 {
+    background-color: var(--background-tertiary);
+    padding: 5px;
+    border-radius: var(--unity-border-radius);
+}
+
+.wrapper__14245::after {
+    display: none;
+}
+
+.searchBar_fed6d3 {
+    border-radius: var(--radius-round);
+}
+
+.contentWrapper__08434 {
+    border-radius: var(--unity-border-radius);
+}
+
+.contentWrapper__08434 .container_fea832 {
+    border-radius: var(--unity-border-radius);
+}
+
+[class*="navButtonActive"] {
+    background-color: var(--brand-experiment);
+    border-radius: var(--radius-round);
+}
+
+.navList__08434 {
+    justify-content: center;
+}
+
+.result__2dc39 {
+    border-radius: var(--unity-border-radius);
+    overflow: hidden;
+}
+
+.result__2dc39::after {
+    border-radius: var(--unity-border-radius);
+}
+
