@@ -9,4 +9,5 @@ export default {
 		source: 'https://github.com/wcnrny/Unity/',
         invite: '',
 	},
+	baseImport: 'https://cdn.jsdelivr.net/gh/wcnrny/Unity@main/dist/Unity.css',
 };

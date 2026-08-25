@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Samsung Sharp Sans";
-  src: url(https://github.com/wcnrny/Unity/Fonts/SamsungSharpSans/SamsungSharpSans.ttf)
+  src: url(https://cdn.jsdelivr.net/gh/wcnrny/Unity@main/Fonts/SamsungSharpSans/SamsungSharpSans.ttf)
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Samsung Sharp Sans";
-  src: url(https://github.com/wcnrny/Unity/Fonts/SamsungSharpSans/SamsungSharpSans-Medium.ttf)
+  src: url(https://cdn.jsdelivr.net/gh/wcnrny/Unity@main/Fonts/SamsungSharpSans/SamsungSharpSans-Medium.ttf)
     format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "Samsung Sharp Sans";
-  src: url(https://github.com/wcnrny/Unity/Fonts/SamsungSharpSans/SamsungSharpSans-Bold.ttf)
+  src: url(https://cdn.jsdelivr.net/gh/wcnrny/Unity@main/Fonts/SamsungSharpSans/SamsungSharpSans-Bold.ttf)
     format("truetype");
   font-weight: bold;
   font-style: normal;
